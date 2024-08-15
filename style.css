@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS";
+}
+
+body{
+    background-color: #FEF3E2;
+}
+
+.navbar {
+    color: #FEF3E2;
+    padding: 15px;
+    background-color: #708871;
+    font-size: 30px;
+}
+
+.container {
+    background-color: #BEC6A0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    border-radius: 20px;
+    z-index: 1;
+    display: none;
+}
+
+.container-content {
+    background-color: #BEC6A0;
+    color: #606676;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container-content h2 {
+    color: #FEF3E2;
+}
+
+.container-content button {
+    border: none;
+    border-radius: 10px;
+    background-color: #708871;
+    color: #FEF3E2;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.overlay-box {
+    background-color: #708871;
+    color: #FEF3E2;
+    margin-left: 35%;
+    width: 30%;
+    top: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 30px;
+    z-index: 2;
+    display: none;
+}
+
+.overlay-box input {
+    border: none;
+    width: 100%;
+    color: #FEF3E2;
+    border-bottom: solid #BEC6A0 2px;
+    background-color: transparent;
+}
+
+.overlay-box input::placeholder {
+    color: #FEF3E2;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.overlay-box textarea {
+    border: solid #BEC6A0 2px;
+    width: 100%;
+    border-bottom: solid #BEC6A0 2px;
+    background-color: transparent;
+    height: 80px;
+    margin-top: 10px;
+    color: #FEF3E2;
+}
+
+.overlay-box textarea::placeholder {
+    color: #FEF3E2;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.overlay-box button {
+    border: none;
+    background-color: #BEC6A0;
+    color: #FEF3E2;
+    padding: 10px;
+}
+
+.overlay-box input:focus {
+    outline: none;
+}
+
+.overlay-box textarea:focus {
+    outline: none;
+}
+
+#addbox-button {
+    border: none;
+    background-color: #708871;
+    color: #FEF3E2;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

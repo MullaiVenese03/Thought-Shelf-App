@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thought-Shelf App</title>
+    <link rel="icon" href="Book_icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h2>Thought-Shelf</h2>
+    </div>
+
+    <div class="container1-content">
+        <div class="container-content">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert Kiyosaki</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eveniet officia! Maxime, ratione.
+                Cupiditate dolorum earum cumque alias iusto molestiae vero? Reprehenderit tempore et dolore neque
+                cupiditate! Vel, nihil obcaecati.</p>
+            <button onclick="deletebutton(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="container"></div>
+
+    <div class="overlay-box">
+        <h2>Add your book thought's</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="booktitle">
+            <input type="text" placeholder="Book Author" id="bookauthor">
+            <textarea placeholder="Short Description" id="shortdescription"></textarea>
+            <button id="addbutton">ADD</button>
+            <button id="cancelbutton">CANCEL</button>
+        </form>
+    </div>
+
+    <button id="addbox-button">+</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
